@@ -1,0 +1,11 @@
+list=[1,23,45,2,33,2,7,2]
+list.sort()
+print(list)
+list.reverse()
+print(list)
+print(list.count(23))
+print("*******")
+x=[1,2,3,4,5]
+y=[6,7,8,9]
+x.extend(y)
+print(x)
